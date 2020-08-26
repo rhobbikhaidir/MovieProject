@@ -143,8 +143,9 @@ function showMovieDetail(m) {
                 </div>
                 <div class="col-md">
                   <ul class="list-group">
-                    <li class="list-group-item"></li>
-                    <h4>${m.Title} ${m.Year}</h4>
+                  <li class="list-group-item">
+                  <h4>${m.Title} ${m.Year}</h4>
+                  </li>
                     <li class="list-group-item">
                       <strong>Director :</strong> ${m.Director}
                     </li>
